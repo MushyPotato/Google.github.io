@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+}
+
+#logo {
+    display: grid;
+    place-items: center;
+    padding-top: 4%;
+}
+
+#bar {
+    width: 36%;
+    padding: 14px 41px;
+    margin: 1.5% 28.5%;
+    border-radius: 25px;
+    border: 2px solid rgb(235, 235, 235);
+    font-size: 15px;
+    background-image: url("/icons/icon_search.svg");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    outline: rgb(235, 235, 235);
+}
+
+#google {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#google:hover {
+    text-decoration: underline;
+}
+
+#user {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#corner_icons {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+}
+
+#menu {
+    margin-left: 15px;
+    opacity: 0.6;
+    vertical-align: middle;
+}

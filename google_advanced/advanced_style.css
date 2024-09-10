@@ -1,0 +1,113 @@
+body {
+    font-family: Arial;
+}
+
+#title {
+    position: relative;
+    padding-top: 72px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: rgb(223, 40, 40);
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 71px;
+    height: 24px;
+}
+
+#google {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#google:hover {
+    text-decoration: underline;
+}
+
+#user {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+#corner_icons {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+}
+
+#menu {
+    margin-left: 15px;
+    opacity: 0.6;
+    vertical-align: middle;
+}
+
+#line-1 {
+    height: 1px;
+    background: rgb(223, 223, 223);
+}
+
+.input {
+    margin-bottom: 18px;
+    margin-right: 700px;
+    height: 25px;
+    padding-right: 350px;
+    padding-left: 10px;
+    border-color: rgb(172, 172, 172);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #589ad1;
+}
+
+#inputs {
+    margin-left: 225px;
+    position: absolute;
+    top: 215px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+#subtitle {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#button {
+    background-color: rgb(0, 140, 255);
+    border-color: rgb(0, 130, 255);
+    padding: 7px 14px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 408px;
+}
+
+#button:hover {
+    background-color: rgb(0, 127, 231);
+    border-color: rgb(0, 98, 190);
+}
