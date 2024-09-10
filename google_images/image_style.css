@@ -15,7 +15,7 @@ body {
     border-radius: 25px;
     border: 2px solid rgb(235, 235, 235);
     font-size: 15px;
-    background-image: url("icons/icon_search.svg");
+    background-image: url("../icons/icon_search.svg");
     background-position: 10px 10px;
     background-repeat: no-repeat;
     outline: rgb(235, 235, 235);
