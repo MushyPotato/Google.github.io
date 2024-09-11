@@ -76,7 +76,7 @@ body {
     border-color: #589ad1;
 }
 
-#inputs {
+.inputs {
     margin-left: 225px;
     position: absolute;
     top: 215px;
